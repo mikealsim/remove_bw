@@ -10,9 +10,11 @@ If it affects a reagon your didnt want, use photoshop or another editor and merg
 Uses:
 It an be used to remove the background from a logo
 
+<img width="324" alt="logo" src="logo.png"> <img width="324" alt="logo_alpha" src="logo_alpha.png">
 
-<img width="324" alt="logo" src="https://user-images.githubusercontent.com/19735729/208267731-866fb6d9-6384-47b9-bba1-d08064a8b2b6.png">
+Add alpha to difficult to edit artwork:
 
-->
+<img width="324" alt="logo" src="mushroom_art.png"> <img width="324" alt="logo_alpha" src="mushroom_art_alpha.png">
 
-![logo_alpha](https://user-images.githubusercontent.com/19735729/208267746-e759bea5-8a53-47c2-86df-054811267a49.png)
+combine with other images / color to replace the white in an image:
+
