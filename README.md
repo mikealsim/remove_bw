@@ -68,5 +68,5 @@ Optional, With this flag it will remove black, by default it removes white.
 
 ### --plugin
 
-Advanced, Optional, I use the imageio for increased file type compatablity, imageio has multiple methods to write common file types, use this flag to specify which imageio plugin you want to write with. May require additional installation, see imageio docs for more info. Example plugins: [freeimage, pillow, ITK, GDAL, tifffile]
+Advanced, Optional, I use the imageio for increased file type compatablity, imageio has multiple methods to write common file types, use this flag to specify which imageio plugin you want to write with. May require additional installation, see imageio docs for more info. Example plugins: [opencv, freeimage, pillow, ITK, GDAL, tifffile]
 
