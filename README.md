@@ -6,11 +6,13 @@ In the case of [127] gray pixel, it finds the amount of white in the pixel (50%)
 
 If it affects a reagon your didnt want, use photoshop or another editor and merge the images togeather keeping the areas you want. 
 
-The recipe:
+## The recipe:
 ```
 RGB -> HSV
 convert to double 
 convert to value scale (0-1)
+
+// make the alpha
 alpha = 1.0-(v-s)
 
 // preserve color and values
