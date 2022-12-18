@@ -56,7 +56,7 @@ this is the path to the desired image
 
 ### -a, --alpha_suffix
 
-Optional, Sperates the alpha and adds suffix to alpha's filename, without this it will write a single file with an alpha if the file type supports it. Use this if you want to write a file type without an alpha channel like JPG. 
+Optional, Separates the alpha and adds suffix to alpha's filename, without this argument it will write a single file with alpha if the file type supports it. Use this if you want to write a file type without an alpha channel like JPG. 
 
 ### -o, --output
 
