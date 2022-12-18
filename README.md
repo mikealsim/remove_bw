@@ -1,7 +1,5 @@
 # About
-This python aplication and library will remove all white or black from an image.
-
-It's based on a previous phtoshop plugin I created, call killwhite. 
+This python aplication and library will remove all white or black from an image. It's based on a previous phtoshop plugin I created, call killwhite. 
 
 ### How it works
 In the case of [127] gray pixel, it finds the amount of white in the pixel (50%), then sets the pixel to black, and adds a 50% alpha. Thus the finnal result apear to not have changed but now has a transparency. 99% black is still 1% white and will have a 1% alpha. 
