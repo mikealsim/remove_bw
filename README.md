@@ -18,3 +18,6 @@ Add alpha to difficult to edit artwork:
 
 combine with other images / color to replace the white in an image:
 
+Use remove black to remove a background
+
+<img width="324" alt="fire" src="fire.png"> <img width="324" alt="fire_alpha" src="fire_alpha.png">
