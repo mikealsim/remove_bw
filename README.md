@@ -4,7 +4,7 @@ This python aplication and library will remove all white or black from an image.
 ### How it works
 In the case of [127] gray pixel, it finds the amount of white in the pixel (50%), then sets the pixel to black, and adds a 50% alpha. Thus the finnal result apear to not have changed but now has a transparency. 99% black is still 1% white and will have a 1% alpha. 
 
-If it affects a reagon your didnt want, use photoshop or another editor and merge the images togeather keeping the areas you want. 
+If it affects a reagon your didnt want, use photoshop or another editor and merge the images togeather preserving the areas you want. 
 
 ## The recipe:
 ```
