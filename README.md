@@ -48,3 +48,25 @@ fire source &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp
 grill source &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; aditional mask
 
 <img width=648 alt="fire_grill" src="fire_grill.png">
+
+# Parameters
+### -i, --image
+
+this is the path to the desired image
+
+### -a, --alpha_suffix
+
+Optional, Sperates the alpha and adds suffix to alpha's filename, without this it will write a single file with an alpha if the file type supports it. Use this if you want to write a file type without an alpha channel like JPG. 
+
+### -o, --output
+
+output image path and extension
+
+### -b, --remove_black
+
+Optional, With this flag it will remove black, by default it removes white. 
+
+### --plugin
+
+Advanced, Optional, I use the imageio for increased file type compatablity, imageio has multiple methods to write common file types, use this flag to specify which imageio plugin you want to write with. May require additional installation, see imageio docs for more info. Example plugins: [freeimage, pillow, ITK, GDAL, tifffile]
+
