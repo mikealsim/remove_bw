@@ -3,9 +3,26 @@ This python aplication and library will remove all white or black from an image.
 
 It's based on a previous phtoshop plugin I created, call killwhite. 
 
+### How it works
 In the case of [127] gray pixel, it finds the amount of white in the pixel (50%), then sets the pixel to black, and adds a 50% alpha. Thus the finnal result apear to not have changed but now has a transparency. 99% black is still 1% white and will have a 1% alpha. 
 
 If it affects a reagon your didnt want, use photoshop or another editor and merge the images togeather keeping the areas you want. 
+
+The recipe:
+```
+RGB -> HSV
+convert to double 
+convert to value scale (0-1)
+alpha = 1.0-(v-s)
+
+// preserve color and values
+if (alpha < 1.0)
+  v = s/alpha
+  S = s/alpha
+
+to origional value scale
+HSV -> RGB
+```
 
 ## Use RemoveWhite()
 It can be used to remove the background from a logo
@@ -20,7 +37,7 @@ combine with other images / color to replace the white in an image:
 
 ## Use RemoveBlack()
 
-Stock fire images/video is usualy shot on a black background for ease of adding to other imagery. This makes it even better, no compromise in color or value with "blendmodes".
+Stock fire images/video is usualy shot on a black background for ease of adding to other imagery. This makes it even better, no compromise in color or value like with "blendmodes".
 
 <img width="324" alt="fire" src="fire.png"> <img width="324" alt="fire_alpha" src="fire_alpha.png">
 
