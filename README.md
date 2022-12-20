@@ -38,6 +38,14 @@ Add alpha to difficult to edit artwork:
 
 combine with other images / color to replace the white in an image:
 
+<img width="324" alt="white_flower" src="white_flower.jpg"> <img width="324" alt="fire_alpha" src="white_flower_alpha.png"> <img width="324" alt="white_flower_background" src="white_flower_bg.png"> 
+
+flower source &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; with alpha from RemoveWhite() &emsp; &emsp; &emsp; &emsp; &emsp;  Add background color
+
+<img width=648 alt="white_flower_combined" src="white_flower_combined.png">
+
+Comnbine in photoshop, notice how it keeps the origional texture and shadows
+
 ## Use RemoveBlack()
 
 Stock fire images/video is usualy shot on a black background for ease of adding to other imagery. This makes it even better, no compromise in color or value like with "blendmodes".
@@ -51,6 +59,8 @@ fire source &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp
 grill source &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; aditional mask
 
 <img width=648 alt="fire_grill" src="fire_grill.png">
+
+finaly combine in photoshop
 
 # Parameters
 ### -i, --image
