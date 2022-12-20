@@ -38,9 +38,13 @@ Add alpha to difficult to edit artwork:
 
 combine with other images / color to replace the white in an image:
 
-<img width="324" alt="white_flower" src="example_images/flower/white_flower.jpg"> <img width="324" alt="fire_alpha" src="example_images/flower/white_flower_alpha.png"> <img width="324" alt="white_flower_background" src="example_images/flower/white_flower_bg.png"> 
+<img width="324" alt="white_flower" src="example_images/flower/white_flower.jpg"> <img width="324" alt="fire_alpha" src="example_images/flower/white_flower_alpha.png"> 
 
-flower source &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; with alpha from RemoveWhite() &emsp; &emsp; &emsp; &emsp; &emsp;  Add background color
+flower source &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; with alpha from RemoveWhite()
+
+<img width="324" alt="white_flower_background" src="example_images/flower/white_flower_bg.png"> 
+
+Add background color
 
 <img width=648 alt="white_flower_combined" src="example_images/flower/white_flower_combined.png">
 
