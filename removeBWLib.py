@@ -1,3 +1,9 @@
+# Copyright (C) 2010-2022, Mikeal Simburger
+#
+# removeBW is distributed under the terms of the new BSL License.
+# The full license can be found in 'license.txt'.
+
+
 import numpy as np
 import matplotlib
 import cv2
