@@ -1,7 +1,7 @@
 # About
 This python aplication and library will remove all white or black from an image, prefectly preserving the color and value of the rest of the image. It's based on a previous photoshop plugin I created, call killwhite.
 
-App Supports 8/16/32 bit RGB images, fastest with 8 bit
+App Supports 8/16 bit RGB images, fastest with 8 bit
 Library use numpy and expects 3 channel RGB array
 
 ### How it works
