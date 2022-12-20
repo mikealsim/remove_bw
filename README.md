@@ -48,7 +48,7 @@ Comnbine in photoshop, notice how it keeps the origional texture and shadows
 
 ## Use RemoveBlack()
 
-Stock fire images/video is usualy shot on a black background for ease of adding to other imagery. This makes it even better, no compromise in color or value like with "blendmodes".
+Stock fire images/video is usualy shot on a black background for ease of adding to other imagery. This makes it even better, no compromise in color or value like with "blendmodes" techniques. This give you full freedom to get the colors you want.
 
 <img width="324" alt="fire" src="fire.png"> <img width="324" alt="fire_alpha" src="fire_alpha.png">
 
