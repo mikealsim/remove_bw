@@ -30,19 +30,19 @@ HSV -> RGB
 ## Use RemoveWhite()
 It can be used to remove the background from a logo
 
-<img width="324" alt="logo" src="logo.png"> <img width="324" alt="logo_alpha" src="logo_alpha.png">
+<img width="324" alt="logo" src="example_images/logo/logo.png"> <img width="324" alt="logo_alpha" src="example_images/logo/logo_alpha.png">
 
 Add alpha to difficult to edit artwork:
 
-<img width="324" alt="logo" src="mushroom_art.png"> <img width="324" alt="logo_alpha" src="mushroom_art_alpha.png">
+<img width="324" alt="logo" src="example_images/art/mushroom_art.png"> <img width="324" alt="logo_alpha" src="example_images/art/mushroom_art_alpha.png">
 
 combine with other images / color to replace the white in an image:
 
-<img width="324" alt="white_flower" src="white_flower.jpg"> <img width="324" alt="fire_alpha" src="white_flower_alpha.png"> <img width="324" alt="white_flower_background" src="white_flower_bg.png"> 
+<img width="324" alt="white_flower" src="example_images/flower/white_flower.jpg"> <img width="324" alt="fire_alpha" src="example_images/flower/white_flower_alpha.png"> <img width="324" alt="white_flower_background" src="example_images/flower/white_flower_bg.png"> 
 
 flower source &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; with alpha from RemoveWhite() &emsp; &emsp; &emsp; &emsp; &emsp;  Add background color
 
-<img width=648 alt="white_flower_combined" src="white_flower_combined.png">
+<img width=648 alt="white_flower_combined" src="example_images/flower/white_flower_combined.png">
 
 Comnbine in photoshop, notice how it keeps the origional texture and shadows
 
@@ -50,15 +50,15 @@ Comnbine in photoshop, notice how it keeps the origional texture and shadows
 
 Stock fire images/video is usualy shot on a black background for ease of adding to other imagery. This makes it even better, no compromise in color or value like with "blendmodes" techniques. This give you full freedom to get the colors you want.
 
-<img width="324" alt="fire" src="fire.png"> <img width="324" alt="fire_alpha" src="fire_alpha.png">
+<img width="324" alt="fire" src="example_images/fire/fire.png"> <img width="324" alt="fire_alpha" src="example_images/fire/fire_alpha.png">
 
 fire source &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; with alpha from RemoveBlack()
 
-<img width="324" alt="grill" src="grill.png"> <img width="324" alt="mask" src="fire_grill_mask.png">
+<img width="324" alt="grill" src="example_images/fire/grill.png"> <img width="324" alt="mask" src="example_images/fire/fire_grill_mask.png">
 
 grill source &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; aditional mask
 
-<img width=648 alt="fire_grill" src="fire_grill.png">
+<img width=648 alt="fire_grill" src="example_images/fire/fire_grill.png">
 
 finaly combine in photoshop
 
